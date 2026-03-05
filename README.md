@@ -10,7 +10,8 @@ Project ini dibuat menggunakan **HTML, CSS, dan JavaScript** tanpa menggunakan f
 
 ## 📸 Preview
 
-![Website Preview](preview/preview.png)
+![Website Preview](preview/Preview%201.png)
+![Website Preview](preview/Preview%202.png)
 
 ---
 
