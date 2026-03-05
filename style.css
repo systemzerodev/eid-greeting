@@ -1,0 +1,574 @@
+/* ======================
+RESET
+====================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+/* ======================
+BODY
+====================== */
+
+body{
+height:100vh;
+
+font-family:Arial, sans-serif;
+
+background:#1a6f63;
+color:white;
+
+text-align:center;
+
+overflow:hidden; /* hilangkan semua scroll */
+position:relative;
+}
+
+
+/* ======================
+HERO
+====================== */
+
+.hero{
+margin-top:60px;
+}
+
+h1{
+font-size:40px;
+}
+
+.subtitle{
+font-size:22px;
+margin-top:10px;
+}
+
+
+/* ======================
+BUTTON
+====================== */
+
+button{
+margin-top:30px;
+
+padding:12px 25px;
+
+font-size:18px;
+
+border:none;
+border-radius:10px;
+
+background:#ffd700;
+
+cursor:pointer;
+
+transition:all 0.3s ease;
+
+animation:pulse 3s infinite;
+}
+
+@keyframes pulse{
+
+0%{box-shadow:0 0 0 rgba(255,215,0,0);}
+50%{box-shadow:0 0 15px rgba(255,215,0,0.6);}
+100%{box-shadow:0 0 0 rgba(255,215,0,0);}
+
+}
+
+button:hover{
+
+transform:scale(1.08);
+
+box-shadow:
+0 0 10px rgba(255,215,0,0.8),
+0 0 25px rgba(255,215,0,0.6);
+
+}
+
+
+/* ======================
+MESSAGE
+====================== */
+
+.message{
+max-width:700px;
+margin:40px auto;
+
+padding:20px;
+padding-bottom:140px; /* supaya tidak ketutup footer */
+}
+
+.hidden{
+display:none;
+}
+
+.judul,
+.text1,
+.text2,
+.text3{
+opacity:0;
+transform:translateY(20px);
+}
+
+.show{
+animation:fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(20px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+
+/* ======================
+UCAPAN
+====================== */
+
+.ucapan h2{
+font-size:30px;
+margin-bottom:20px;
+}
+
+.ucapan p{
+font-size:18px;
+line-height:1.7;
+margin-bottom:15px;
+}
+
+
+/* ======================
+SKY BACKGROUND
+====================== */
+
+.sky{
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+pointer-events:none;
+
+z-index:-1;
+
+overflow:hidden;
+}
+
+
+/* ======================
+MOON
+====================== */
+
+.moon{
+position:absolute;
+
+top:80px;
+right:120px;
+
+width:120px;
+
+filter:
+drop-shadow(0 0 15px rgba(255,215,0,0.9))
+drop-shadow(0 0 40px rgba(255,215,0,0.6));
+
+transform:rotate(20deg);
+}
+
+
+/* ======================
+STARS
+====================== */
+
+.star{
+position:absolute;
+width:18px;
+
+animation:twinkle 3s infinite alternate;
+}
+
+.s1{top:60px; left:15%;}
+.s2{top:120px; left:35%;}
+.s3{top:90px; left:55%;}
+.s4{top:40px; left:75%;}
+.s5{top:140px; left:90%;}
+
+@keyframes twinkle{
+
+from{
+opacity:0.4;
+transform:scale(0.8);
+}
+
+to{
+opacity:1;
+transform:scale(1);
+}
+
+}
+
+
+/* ======================
+LANTERN
+====================== */
+
+.lantern{
+position:absolute;
+
+top:0;
+
+width:70px;
+
+transform-origin:top center;
+
+animation:swing 5s ease-in-out infinite alternate;
+}
+
+.l1{left:20%;}
+.l2{left:50%;}
+.l3{left:80%;}
+
+@keyframes swing{
+
+0%{transform:rotate(-10deg);}
+100%{transform:rotate(10deg);}
+
+}
+
+
+/* ======================
+MOSQUE
+====================== */
+
+.mosque{
+position:absolute;
+
+left:50%;
+bottom:140px;
+
+transform:translateX(-50%);
+
+width:360px;
+
+opacity:0.15;
+}
+
+
+/* ======================
+KETUPAT
+====================== */
+
+.ketupat{
+position:absolute;
+
+width:240px;
+
+animation:ketupatSwing 4s ease-in-out infinite;
+
+transform-origin:top center;
+}
+
+.ketupat-left{
+left:60px;
+bottom:160px;
+}
+
+.ketupat-right{
+right:60px;
+bottom:160px;
+animation-delay:2s;
+}
+
+@keyframes ketupatSwing{
+
+0%{transform:rotate(-6deg) translateY(0);}
+25%{transform:rotate(3deg) translateY(-8px);}
+50%{transform:rotate(6deg) translateY(0);}
+75%{transform:rotate(-3deg) translateY(8px);}
+100%{transform:rotate(-6deg) translateY(0);}
+
+}
+
+
+/* ======================
+MUSIC BUTTON
+====================== */
+
+.music-btn{
+position:fixed;
+
+bottom:20px;
+right:20px;
+
+width:50px;
+height:50px;
+
+background:#ffd700;
+
+border:none;
+border-radius:50%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+cursor:pointer;
+
+box-shadow:0 0 12px rgba(255,215,0,0.6);
+
+transition:all 0.3s ease;
+
+z-index: 1000;
+}
+
+.music-btn:hover{
+transform:scale(1.1);
+}
+
+.music-icon{
+width:22px;
+height:22px;
+}
+
+
+/* ======================
+FOOTER
+====================== */
+
+.footer{
+position:fixed;
+
+bottom:0;
+left:0;
+
+width:100%;
+
+padding:16px;
+
+background:rgba(0,0,0,0.15);
+}
+
+.footer-text{
+font-size:12px;
+opacity:0.9;
+}
+
+.footer-credit{
+font-size:11px;
+opacity:0.7;
+margin-top:6px;
+}
+
+/* ======================
+Tablet Mode
+====================== */
+
+@media (max-width:768px){
+
+.hero{
+margin-top:40px;
+}
+
+h1{
+font-size:26px;
+}
+
+.subtitle{
+font-size:16px;
+}
+
+button{
+font-size:16px;
+padding:10px 20px;
+}
+
+.message{
+padding:15px;
+margin:20px auto;
+}
+
+.ucapan h2{
+font-size:22px;
+}
+
+.ucapan p{
+font-size:15px;
+line-height:1.6;
+}
+
+.mosque{
+width:240px;
+bottom:110px;
+}
+
+.ketupat{
+width:140px;
+}
+
+.ketupat-left{
+left:10px;
+bottom:120px;
+}
+
+.ketupat-right{
+right:10px;
+bottom:120px;
+}
+
+.lantern{
+width:45px;
+}
+
+.moon{
+width:80px;
+top:60px;
+right:30px;
+}
+
+.star{
+width:12px;
+}
+
+.music-btn{
+width:42px;
+height:42px;
+}
+
+.music-icon{
+width:18px;
+height:18px;
+}
+
+.footer{
+font-size:12px;
+padding:12px;
+}
+
+}
+
+/* ======================
+Mobile  Mode
+====================== */
+
+@media (max-width:768px){
+
+.hero{
+margin-top:40px;
+}
+
+h1{
+font-size:26px;
+}
+
+.subtitle{
+font-size:16px;
+}
+
+button{
+font-size:16px;
+padding:10px 20px;
+}
+
+.message{
+padding:15px;
+margin:20px auto;
+}
+
+.ucapan h2{
+font-size:22px;
+}
+
+.ucapan p{
+font-size:15px;
+line-height:1.6;
+}
+
+.mosque{
+width:240px;
+bottom:110px;
+}
+
+.ketupat{
+width:140px;
+}
+
+.ketupat-left{
+left:10px;
+bottom:120px;
+}
+
+.ketupat-right{
+right:10px;
+bottom:120px;
+}
+
+.lantern{
+width:45px;
+}
+
+.moon{
+width:80px;
+top:60px;
+right:30px;
+}
+
+.star{
+width:12px;
+}
+
+.music-btn{
+width:42px;
+height:42px;
+}
+
+.music-icon{
+width:18px;
+height:18px;
+}
+
+.footer{
+font-size:12px;
+padding:12px;
+}
+
+}
+
+/* ======================
+Mobile  Mode V2
+====================== */
+
+@media (max-width:480px){
+
+h1{
+font-size:22px;
+}
+
+.subtitle{
+font-size:14px;
+}
+
+.ucapan p{
+font-size:14px;
+}
+
+.mosque{
+width:200px;
+}
+
+.ketupat{
+width:110px;
+}
+
+}
