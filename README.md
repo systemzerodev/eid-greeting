@@ -25,21 +25,6 @@ CSS3
 
 Vanilla JavaScript
 
-📁 Project Structure
-
-eid-greeting
-│
-├── assets
-│
-├── preview
-│ ├── preview_1.png
-│ └── preview_2.png
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
 🎯 Purpose
 
 Project ini dibuat sebagai latihan untuk mempelajari dasar Front-End Web Development, terutama:
