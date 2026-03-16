@@ -1,4 +1,4 @@
-🌙 Eid Greeting Website
+<p align="center"><b>🌙 Eid Greeting Website<b><p>
 
 <p align="center"> Website ucapan <b>Selamat Hari Raya Idul Fitri</b> dengan dekorasi langit malam, animasi teks, dan musik latar untuk menciptakan suasana Lebaran yang hangat. </p> <p align="center"> <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge"> </p> <p align="center"> <a href="https://username.github.io/eid-greeting"> <img src="https://img.shields.io/badge/Live-Demo-green?style=for-the-badge"> </a> </p>
 📸 Preview
