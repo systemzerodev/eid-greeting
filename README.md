@@ -1,98 +1,73 @@
-# 🌙 Eid Greeting Website
+🌙 Eid Greeting Website
 
-![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge)
-![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge)
+<p align="center"> Website ucapan <b>Selamat Hari Raya Idul Fitri</b> dengan dekorasi langit malam, animasi teks, dan musik latar untuk menciptakan suasana Lebaran yang hangat. </p> <p align="center"> <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge"> </p> <p align="center"> <a href="https://username.github.io/eid-greeting"> <img src="https://img.shields.io/badge/Live-Demo-green?style=for-the-badge"> </a> </p>
+📸 Preview
+<p align="center"> <img src="assets/images/Preview-1.png" width="80%"> <br> <img src="assets/images/Preview-2.png" width="80%"> </p>
+✨ Features
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://username.github.io/eid-greeting)
+🌙 Dekorasi bulan sabit animasi
 
-Website ucapan **Selamat Hari Raya Idul Fitri** dengan dekorasi langit malam, animasi teks, serta musik latar untuk menambah nuansa Lebaran.
+⭐ Background langit malam dengan bintang
 
-Project ini dibuat menggunakan **HTML, CSS, dan JavaScript tanpa framework**.
+💬 Animasi teks ucapan
 
----
+🎵 Background music dengan tombol play / pause
 
-# 📸 Preview
+📱 Responsive design (Desktop, Tablet, Mobile)
 
-![Website Preview](preview/Preview%201.png)
-![Website Preview](preview/Preview%202.png)
+🛠 Tech Stack
 
----
+Project ini dibuat menggunakan teknologi sederhana tanpa framework:
 
-# ✨ Features
+HTML5
 
-- Animasi teks ucapan muncul bertahap
-- Background langit malam
-- Dekorasi khas Lebaran
-  - 🌙 Moon
-  - ⭐ Stars
-  - 🏮 Lanterns
-  - 🕌 Mosque silhouette
-  - 🟩 Ketupat animation
+CSS3
 
-- Background music dengan tombol **mute / unmute**
-- Responsive design untuk **Desktop, Tablet, dan Mobile**
+Vanilla JavaScript
 
----
+📁 Project Structure
 
-# 🛠 Tech Stack
-
-Project ini dibuat menggunakan:
-
-- **HTML5**
-- **CSS3**
-- **Vanilla JavaScript**
-
----
-
-# 📁 Project Structure
-
-```
 eid-greeting
 │
-├ assets
+├── assets
 │
-├ preview
-│   └ preview.png
+├── preview
+│ ├── preview_1.png
+│ └── preview_2.png
 │
-├ index.html
-├ style.css
-├ script.js
-└ README.md
-```
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 
----
+🎯 Purpose
 
-# 🎯 Purpose
+Project ini dibuat sebagai latihan untuk mempelajari dasar Front-End Web Development, terutama:
 
-Project ini dibuat sebagai latihan untuk mempelajari dasar **Front-End Web Development**, khususnya:
+Layouting dengan CSS
 
-- Layouting dengan CSS
-- Animasi menggunakan CSS
-- Manipulasi DOM dengan JavaScript
-- Interaksi user (button dan audio)
-- Responsive design
+Animasi menggunakan CSS
 
----
+Manipulasi DOM dengan JavaScript
 
-# 📌 Note
+Interaksi user (button dan audio)
 
-Project ini adalah **project website pertama saya**, jadi mohon dimaklumi jika masih terdapat banyak kekurangan.
+Responsive web design
 
-Saya membuat project ini sebagai bagian dari proses belajar untuk meningkatkan kemampuan saya dalam **Front-End Web Development**.
-
----
-
-# 🚀 Live Demo
+🚀 Live Demo
 
 Website dapat diakses melalui:
 
 https://username.github.io/eid-greeting
 
-_(Link akan aktif setelah project dipublish menggunakan GitHub Pages)_
+(Link akan aktif setelah project dipublish menggunakan GitHub Pages)
 
----
+📌 Note
 
-# 📜 License
+Ini adalah project website pertama saya, jadi mohon dimaklumi jika masih terdapat kekurangan.
 
-Project ini bebas digunakan untuk **keperluan belajar dan personal project**.
+Project ini dibuat sebagai bagian dari proses belajar untuk meningkatkan kemampuan saya dalam Front-End Web Development.
+
+📜 License
+
+Project ini bebas digunakan untuk keperluan belajar dan personal project.
